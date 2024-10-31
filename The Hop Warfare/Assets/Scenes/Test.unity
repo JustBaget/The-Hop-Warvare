@@ -617,6 +617,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3649081025905471410, guid: 405f02cc4ca81bc4ca555cbaa148b0d9, type: 3}
+      propertyPath: cameraSpeed
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3879795537733514460, guid: 405f02cc4ca81bc4ca555cbaa148b0d9, type: 3}
       propertyPath: m_Name
       value: Player
@@ -643,7 +647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8409228738355308744, guid: 405f02cc4ca81bc4ca555cbaa148b0d9, type: 3}
       propertyPath: speed
-      value: 1000
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8409228738355308744, guid: 405f02cc4ca81bc4ca555cbaa148b0d9, type: 3}
       propertyPath: dashCD
@@ -663,7 +667,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8409228738355308744, guid: 405f02cc4ca81bc4ca555cbaa148b0d9, type: 3}
       propertyPath: smoothness
-      value: 200
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 8409228738355308744, guid: 405f02cc4ca81bc4ca555cbaa148b0d9, type: 3}
       propertyPath: dashDuration
@@ -741,7 +745,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1d39f35c3bac3564fa3c33cff8ba2605, type: 2}
+  - {fileID: 2100000, guid: 72b3b7449fd58de40a08a9985f083802, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
