@@ -2293,8 +2293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCamera: {fileID: 620640704}
   Dash: {fileID: 0}
-  walkingSpeed: 8
-  jumpSpeed: 8
+  walkingSpeed: 12
+  jumpSpeed: 15
   gravity: 15
   lookSpeed: 3.25
   lookXLimit: 100
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19d53fbea110de5448d9045e104e79d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dashSpeed: 1.75
+  dashSpeed: 3
   dashTime: 0.2
   isDashing: 0
 --- !u!1 &1882736790
