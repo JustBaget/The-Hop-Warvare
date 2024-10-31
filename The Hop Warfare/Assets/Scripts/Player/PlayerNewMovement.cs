@@ -46,7 +46,7 @@ public class PlayerNewMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        Movement();
+       Movement();
     }
 
     void PlayerInput()
